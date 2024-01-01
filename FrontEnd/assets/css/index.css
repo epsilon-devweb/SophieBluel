@@ -223,7 +223,7 @@ body {
 	color: black;
 }
 
-.form {
+#form {
 	display: flex;
 	width: 100%;
 	height: 100%;
@@ -318,10 +318,6 @@ body {
 
 /* MODE EDITION */
 
-.hidden {
-	display: none;
-}
-
 .portfolio-logged {
 	display: flex;
 	justify-content: center;
@@ -356,6 +352,10 @@ body {
 .edit-btn:hover {
 	cursor: pointer;
 	color: #B1663C;
+}
+
+.hidden {
+	display: none;
 }
 
 /* HEADER */
